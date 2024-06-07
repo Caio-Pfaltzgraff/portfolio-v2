@@ -9,7 +9,20 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        default: ['Plus Jakarta Sans', 'sans-serif'],
+        title: ['Ubuntu', 'sans-serif'],
+      },
+      colors: {
+        dark: {
+          light: '#202020',
+          strong: '#121212',
+        },
+        light: '#F9F9F9',
+        midnightBlue: '#051933',
+      }
+    },
   },
   darkMode: "class",
   plugins: [nextui()]
