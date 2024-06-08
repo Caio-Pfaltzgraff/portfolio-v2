@@ -8,12 +8,12 @@ export function AboutMeSection() {
       <Title text="Sobre mim"/>
       <div className="grid gap-10 md:grid-cols-2 py-10">
         <div className="flex justify-center lg:justify-start items-center md:pl-3">
-          <div className="p-2 max-w-md">
-            <div className="border shadow-lg dark:shadow-none p-2 md:p-3 rounded-sm bg-gray-300">
+          <div className="p-1 max-w-[410px]">
+            <div className="border shadow-lg dark:shadow-none p-2 md:p-3 rounded-sm bg-white dark:bg-light">
               <img 
                 src={photo} 
                 alt="Foto de Caio Pfaltzgraff" 
-                className="aspect-square rounded-sm mb-[8vw] md:mb-10"
+                className="aspect-square rounded-sm mb-[8vw] md:mb-9"
               />
             </div>
           </div>

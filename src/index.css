@@ -32,7 +32,7 @@
   }
 
   .nav-link-active {
-    @apply border-b-2 border-orange-700 rounded-b-sm pb-0.5
+    @apply border-b-2 border-orange-600 rounded-b-sm pb-0.5
   }
 
   .nav-link-mobile {

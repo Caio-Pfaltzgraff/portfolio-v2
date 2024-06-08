@@ -1,4 +1,5 @@
 import { Container } from "../components/Container"
+import { Footer } from "../components/Footer"
 import { NavBar } from "../components/NavBar"
 import { AboutMeSection } from "./AboutMeSection"
 import { PresentationSection } from "./PresentationSection"
@@ -13,6 +14,7 @@ export default function App() {
         <AboutMeSection />
         <SkillsSection />
       </Container>
+      <Footer />
     </>
   )
 }
