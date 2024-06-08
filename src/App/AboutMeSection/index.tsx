@@ -4,7 +4,7 @@ import photo from "/caio-photo.png";
 
 export function AboutMeSection() {
   return (
-    <Section id="aboutme">
+    <Section id="aboutme" className="py-10 md:py-12 lg:py-14">
       <Title text="Sobre mim"/>
       <div className="grid gap-10 md:grid-cols-2 py-10">
         <div className="flex justify-center lg:justify-start items-center md:pl-3">

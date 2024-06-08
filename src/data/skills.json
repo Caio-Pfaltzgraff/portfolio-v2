@@ -1,0 +1,102 @@
+[
+  {
+    "icon": "/skillsIcons/java-icon.png",
+    "name": "Java",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/javascript-icon.png",
+    "name": "Javascript",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/typescript-icon.png",
+    "name": "TypeScript",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/spring-icon.png",
+    "name": "Spring Boot",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/react-icon.png",
+    "name": "React",
+    "level": "Intermediário"
+  },
+  {
+    "icon": "/skillsIcons/node-icon.png",
+    "name": "Node.JS",
+    "level": "Básico"
+  },
+  {
+    "icon": "/skillsIcons/vite-icon.png",
+    "name": "Vite",
+    "level": "Intermediário"
+  },
+  {
+    "icon": "/skillsIcons/nextjs-icon.png",
+    "name": "NextJS",
+    "level": "Básico"
+  },
+  {
+    "icon": "/skillsIcons/docker-icon.png",
+    "name": "Docker",
+    "level": "Básico"
+  },
+  {
+    "icon": "/skillsIcons/git-icon.png",
+    "name": "Git",
+    "level": "Intermediário"
+  },
+  {
+    "icon": "/skillsIcons/postgres-icon.png",
+    "name": "Postgres",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/mysql-icon.png",
+    "name": "MySQL",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/html-icon.png",
+    "name": "HTML",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/tailwind-icon.png",
+    "name": "Tailwind",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/styled-components-icon.png",
+    "name": "Styled Components",
+    "level": "Intermediário"
+  },
+  {
+    "icon": "/skillsIcons/bootstrap-icon.png",
+    "name": "Bootstrap",
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/sass-icon.png",
+    "name": "Sass",
+    "level": "Intermediário"
+  },
+  {
+    "icon": "/skillsIcons/material-ui-icon.png",
+    "name": "Material UI",
+    "level": "Intermediário"
+  },
+  {
+    "icon": "/skillsIcons/power-automate-icon.png",
+    "name": "Power Automate",
+    "level": "Básico"
+  },
+  {
+    "icon": "/skillsIcons/office-icon.png",
+    "name": "Pacote Office",
+    "level": "Intermediário"
+  }
+]
