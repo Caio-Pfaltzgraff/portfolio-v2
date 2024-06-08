@@ -23,11 +23,11 @@ export function ToggleTheme({ className = '' }) {
   return (
     <div className={className}>
       <Moon 
-        className="size-7 md:size-6 text-light block dark:hidden cursor-pointer"
+        className="size-6 text-light block dark:hidden cursor-pointer"
         onClick={toggle}
       />
       <Sun 
-        className="size-7 md:size-6 text-light hidden dark:block cursor-pointer"
+        className="size-6 text-light hidden dark:block cursor-pointer"
         onClick={toggle}
       />
     </div>

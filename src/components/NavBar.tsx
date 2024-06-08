@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link as LinkNav } from "react-scroll";
 import { ToggleTheme } from "./ToggleTheme";
 
-export function Header() {
+export function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handlerToggleMenu = () => {
@@ -13,7 +13,6 @@ export function Header() {
   return (
       <Navbar
         onMenuOpenChange={setIsMenuOpen}
-        shouldHideOnScroll
         isBlurred={false}
         maxWidth="xl"
         className="shadow-md bg-midnightBlue dark:bg-dark-light"
@@ -103,7 +102,7 @@ export function Header() {
           </NavbarItem>
         </NavbarContent>
 
-        <NavbarMenu className="flex justify-center items-center gap-y-10 bg-midnightBlue">
+        <NavbarMenu className="flex justify-center items-center gap-y-10 bg-midnightBlue dark:bg-dark-light">
           <NavbarMenuItem>
             <LinkNav
               className="nav-link-mobile" 

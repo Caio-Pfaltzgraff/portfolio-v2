@@ -2,12 +2,21 @@ import { ReactNode } from "react"
 
 type Props = {
   children: ReactNode
+  component: 'div' | 'main'
 }
 
-export function Container({ children }: Props) {
+export function Container({ children, component }: Props) {
   return (
-    <main className="max-w-screen-xl mx-auto px-4 2xl:px-0">
-      {children}
-    </main>
+    <>
+      {component === 'div' ? (
+        <div className="max-w-screen-xl mx-auto px-4 2xl:px-0">
+          {children}
+        </div>
+      ) : (
+        <main className="max-w-screen-xl mx-auto px-4 2xl:px-0">
+          {children}
+        </main>
+      )}
+    </>
   )
 }
