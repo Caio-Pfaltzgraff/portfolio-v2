@@ -25,3 +25,21 @@
   }
 
 }
+
+@layer components {
+  .nav-link {
+    @apply text-light text-sm lg:text-base font-medium cursor-pointer
+  }
+
+  .nav-link-active {
+    @apply border-b-2 border-orange-600
+  }
+
+  .nav-link-mobile {
+    @apply text-light font-semibold text-2xl text-center block
+  }
+
+  .nav-link-mobile-active {
+    @apply text-orange-700
+  }
+}
