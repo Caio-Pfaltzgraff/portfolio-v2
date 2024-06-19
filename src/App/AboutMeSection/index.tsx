@@ -1,8 +1,9 @@
 import { Section } from "../../components/Section";
 import { Title } from "../../components/Title";
-import photo from "/caio-photo.png";
 
 export function AboutMeSection() {
+  const photo = "/caio-photo.png"
+
   return (
     <Section id="aboutme" className="py-10 md:py-12 lg:py-14">
       <Title text="Sobre mim"/>

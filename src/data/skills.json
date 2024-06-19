@@ -27,7 +27,7 @@
   {
     "icon": "/skillsIcons/node-icon.png",
     "name": "Node.JS",
-    "level": "Básico"
+    "level": "Intermediário"
   },
   {
     "icon": "/skillsIcons/vite-icon.png",
@@ -36,8 +36,8 @@
   },
   {
     "icon": "/skillsIcons/nextjs-icon.png",
-    "name": "NextJS",
-    "level": "Básico"
+    "name": "Next.JS",
+    "level": "Intermediário"
   },
   {
     "icon": "/skillsIcons/docker-icon.png",

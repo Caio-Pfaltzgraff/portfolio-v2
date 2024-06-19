@@ -1,6 +1,6 @@
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle } from "@nextui-org/react";
+import { AlignJustify, X } from "lucide-react";
 import { useState } from "react";
-import { Link as LinkNav } from "react-scroll";
+import { Link as LinkNav } from 'react-scroll';
 import { ToggleTheme } from "./ToggleTheme";
 
 export function NavBar() {
@@ -11,123 +11,64 @@ export function NavBar() {
   }
 
   return (
-      <Navbar
-        onMenuOpenChange={setIsMenuOpen}
-        isBlurred={false}
-        maxWidth="xl"
-        className="shadow-md bg-midnightBlue dark:bg-dark-light"
-      >
-        <NavbarContent justify="start">
-          <NavbarBrand>
-            <p className="text-2xl lg:text-3xl font-title text-light font-semibold tracking-wide">
-              {'Port'}<span className="text-orange-700">fólio</span>
-            </p>
-          </NavbarBrand>
-          <ToggleTheme className="md:hidden"/>
-          <NavbarMenuToggle 
-            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-            className="md:hidden text-light"
-          />
-        </NavbarContent>
+      <nav className="bg-midnightBlue dark:bg-dark-light fixed top-0 w-full z-50">
+        <div className="max-w-screen-xl mx-auto flex items-center p-4 2xl:px-0 justify-between">
+          <h2 className="text-2xl font-title text-light font-semibold tracking-wide">
+            {"Port"}<span className="text-orange-700">fólio</span>
+          </h2>
 
-        <NavbarContent className="hidden md:flex gap-4" justify="end">
-          <NavbarItem>
-            <LinkNav
-              className="nav-link"
-              activeClass="nav-link-active"
-              smooth spy
-              to="start"
-              offset={-100}
-            >
+          <div className="flex gap-x-6 items-center md:hidden">
+            <ToggleTheme />
+            {isMenuOpen 
+              ? <X className="size-7 text-light cursor-pointer" onClick={handlerToggleMenu}/>
+              : <AlignJustify className="size-7 text-light cursor-pointer" onClick={handlerToggleMenu}/>
+            }
+          </div>
+
+          <div className='hidden md:flex gap-x-4'>
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='start' offset={-90}>
               Início
             </LinkNav>
-          </NavbarItem>
-          <NavbarItem>
-            <LinkNav
-              className="nav-link"
-              activeClass="nav-link-active"
-              smooth spy
-              to="aboutme"
-              offset={-100}
-            >
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='aboutme' offset={-90}>
               Sobre mim
             </LinkNav>
-          </NavbarItem>
-          <NavbarItem>
-            <LinkNav
-              className="nav-link"
-              activeClass="nav-link-active"
-              smooth spy
-              to="skills"
-              offset={-100}
-            >
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='skills' offset={-90}>
               Habilidades
             </LinkNav>
-          </NavbarItem>
-          <NavbarItem>
-            <LinkNav
-              className="nav-link"
-              activeClass="nav-link-active"
-              smooth spy
-              to="projects"
-              offset={-100}
-            >
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='projects' offset={-90}>
               Projetos
             </LinkNav>
-          </NavbarItem>
-          <NavbarItem>
-            <LinkNav
-              className="nav-link"
-              activeClass="nav-link-active"
-              smooth spy
-              to="achievements"
-              offset={-100}
-            >
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='achievements' offset={-90}>
               Conquistas
             </LinkNav>
-          </NavbarItem>
-          <NavbarItem>
-            <LinkNav
-              className="nav-link"
-              activeClass="nav-link-active"
-              smooth spy
-              to="contact"
-              offset={-100}
-            >
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='contact' offset={-90}>
               Contato
             </LinkNav>
-          </NavbarItem>
-          <NavbarItem>
             <ToggleTheme />
-          </NavbarItem>
-        </NavbarContent>
-
-        <NavbarMenu className="flex justify-center items-center gap-y-10 bg-midnightBlue dark:bg-dark-light">
-          <NavbarMenuItem>
-            <LinkNav
+          </div>
+        </div>
+        {isMenuOpen && (
+          <div className='bg-midnightBlue dark:bg-dark-light absolute h-screen w-full flex flex-col justify-center items-center gap-y-8'>
+            <LinkNav 
               className="nav-link-mobile" 
-            activeClass='nav-link-mobile-active'
-              smooth spy
-              to="start"
+              activeClass='nav-link-mobile-active' 
+              smooth spy 
+              to='start'
               onClick={handlerToggleMenu}
               offset={-64}
             >
               Início
             </LinkNav>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <LinkNav
+            <LinkNav 
               className="nav-link-mobile" 
-              activeClass='nav-link-mobile-active'
-              smooth spy
-              to="aboutme"
+              activeClass='nav-link-mobile-active' 
+              smooth spy 
+              to='aboutme'
               onClick={handlerToggleMenu}
               offset={-64}
             >
               Sobre mim
             </LinkNav>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
             <LinkNav 
               className="nav-link-mobile" 
               activeClass='nav-link-mobile-active' 
@@ -138,8 +79,6 @@ export function NavBar() {
             >
               Habilidades
             </LinkNav>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
             <LinkNav 
               className="nav-link-mobile" 
               activeClass='nav-link-mobile-active' 
@@ -150,8 +89,6 @@ export function NavBar() {
             >
               Projetos
             </LinkNav>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
             <LinkNav 
               className="nav-link-mobile" 
               activeClass='nav-link-mobile-active' 
@@ -162,8 +99,6 @@ export function NavBar() {
             >
               Conquistas
             </LinkNav>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
             <LinkNav 
               className="nav-link-mobile" 
               activeClass='nav-link-mobile-active' 
@@ -174,8 +109,8 @@ export function NavBar() {
             >
               Contato
             </LinkNav>
-          </NavbarMenuItem>
-        </NavbarMenu>
-      </Navbar>
+          </div>
+        )}
+      </nav>
   )
 }

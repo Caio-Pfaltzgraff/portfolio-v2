@@ -1,0 +1,156 @@
+[
+  {
+    "image": "/projectsImages/expert-notes.png",
+    "title": "Expert Notes",
+    "description": "Sistema de criação de notas, os usuários podem digitar ou com a opção de gravação de áudio escreverem suas notas. Para a gravação de áudio foi utilizada a API dom-speech-recognition.",
+    "techs": [
+      {
+        "name": "Typescript",
+        "image": "/skillsIcons/typescript-icon.png"
+      },
+      {
+        "name": "React",
+        "image": "/skillsIcons/react-icon.png"
+      },
+      {
+        "name": "Tailwind",
+        "image": "/skillsIcons/tailwind-icon.png"
+      },
+      {
+        "name": "Vite",
+        "image": "/skillsIcons/vite-icon.png"
+      }
+    ],
+    "github": "https://github.com/Caio-Pfaltzgraff/experts-notes",
+    "deploy": "https://mynotes-nine-teal.vercel.app/"
+  },
+  {
+    "image": "/projectsImages/lecaru.png",
+    "title": "Lecaru",
+    "description": "Landing page de um restaurante fictício, Lecaru é um sistema de restaurante que está sendo desenvolvido, segue atualmente no desenvolvimento das interfaces e irá conectar a uma API que será desenvolvida mais pra frente",
+    "techs": [
+      {
+        "name": "Typescript",
+        "image": "/skillsIcons/typescript-icon.png"
+      },
+      {
+        "name": "React",
+        "image": "/skillsIcons/react-icon.png"
+      },
+      {
+        "name": "Tailwind",
+        "image": "/skillsIcons/tailwind-icon.png"
+      },
+      {
+        "name": "Vite",
+        "image": "/skillsIcons/vite-icon.png"
+      }
+    ],
+    "github": "https://github.com/Caio-Pfaltzgraff/lecaru-front",
+    "deploy": "https://lecaru.vercel.app/"
+  },
+  {
+    "image": "/projectsImages/aluratube.png",
+    "title": "AluraTube",
+    "description": "Projeto de estudos feito na imersão React da Alura, nele foi feito um 'Youtube' fictício, onde pode vizualizar e adicionar vídeos na plataforma, além de possuir a opção de dark mode",
+    "techs": [
+      {
+        "name": "Javascript",
+        "image": "/skillsIcons/javascript-icon.png"
+      },
+      {
+        "name": "React",
+        "image": "/skillsIcons/react-icon.png"
+      },
+      {
+        "name": "NextJS",
+        "image": "/skillsIcons/nextjs-icon.png"
+      },
+      {
+        "name": "Styled-Components",
+        "image": "/skillsIcons/styled-components-icon.png"
+      }
+    ],
+    "github": "https://github.com/Caio-Pfaltzgraff/AluraTube",
+    "deploy": "https://alura-tube-caio-pfaltzgraff.vercel.app/"
+  },
+  {
+    "image": "",
+    "title": "Top Library",
+    "description": "Api Rest de gerenciamento de uma biblioteca, nela podemos cadastrar, atualizar, remover e buscar livros. A api possui com autorização e autenticação, onde o usuário admin controla todas as ações.",
+    "techs": [
+      {
+        "name": "Java",
+        "image": "/skillsIcons/java-icon.png"
+      },
+      {
+        "name": "Spring Boot",
+        "image": "/skillsIcons/spring-icon.png"
+      },
+      {
+        "name": "Gradle",
+        "image": "/skillsIcons/gradle-icon.png"
+      },
+      {
+        "name": "Hibernate",
+        "image": "/skillsIcons/hibernate-icon.png"
+      },
+      {
+        "name": "Postgres",
+        "image": "/skillsIcons/postgres-icon.png"
+      }
+    ],
+    "github": "https://github.com/Caio-Pfaltzgraff/toplibrary",
+    "deploy": ""
+  },
+  {
+    "image": "/projectsImages/numero-secreto.png",
+    "title": "Adivinhe o Número",
+    "description": "Jogo de adivinhação de número, neste jogo o usuário irá falar um número no intervalo entre um e mil. O jogo dá dicas se o número é maior ou menor a cada resposta, para jogar precisa permitir que o navegador grave áudio.",
+    "techs": [
+      {
+        "name": "HTML",
+        "image": "/skillsIcons/html-icon.png"
+      },
+      {
+        "name": "CSS",
+        "image": "/skillsIcons/css-icon.png"
+      },
+      {
+        "name": "Javascript",
+        "image": "/skillsIcons/javascript-icon.png"
+      }
+    ],
+    "github": "https://github.com/Caio-Pfaltzgraff/adivinhe-o-numero",
+    "deploy": "https://adivinhe-o-numero-omega.vercel.app/"
+  },
+  {
+    "image": "",
+    "title": "Voll-Med-API",
+    "description": "Voll-Med é uma clínica médica fictícia que precisa de um aplicativo para gestão de consultas. A API possui funcionalidades de cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.",
+    "techs": [
+      {
+        "name": "Java",
+        "image": "/skillsIcons/java-icon.png"
+      },
+      {
+        "name": "Spring Boot",
+        "image": "/skillsIcons/spring-icon.png"
+      },
+      {
+        "name": "Maven",
+        "image": "/skillsIcons/maven-icon.png"
+      },
+      {
+        "name": "MySQL",
+        "image": "/skillsIcons/mysql-icon.png"
+      },
+      {
+        "name": "Hibernate",
+        "image": "/skillsIcons/hibernate-icon.png"
+      }
+    ],
+    "github": "https://github.com/Caio-Pfaltzgraff/voll-med-api",
+    "deploy": ""
+  }
+]
