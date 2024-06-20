@@ -1,5 +1,5 @@
-import { AlignJustify, X } from "lucide-react";
 import { useState } from "react";
+import { LuAlignJustify, LuX } from "react-icons/lu";
 import { Link as LinkNav } from 'react-scroll';
 import { ToggleTheme } from "./ToggleTheme";
 
@@ -13,15 +13,15 @@ export function NavBar() {
   return (
       <nav className="bg-midnightBlue dark:bg-dark-light fixed top-0 w-full z-50">
         <div className="max-w-screen-xl mx-auto flex items-center p-4 2xl:px-0 justify-between">
-          <h2 className="text-2xl font-title text-light font-semibold tracking-wide">
+          <h2 className="text-2xl font-title text-light font-semibold">
             {"Port"}<span className="text-orange-700">fólio</span>
           </h2>
 
           <div className="flex gap-x-6 items-center md:hidden">
             <ToggleTheme />
             {isMenuOpen 
-              ? <X className="size-7 text-light cursor-pointer" onClick={handlerToggleMenu}/>
-              : <AlignJustify className="size-7 text-light cursor-pointer" onClick={handlerToggleMenu}/>
+              ? <LuX className="size-7 text-light cursor-pointer" onClick={handlerToggleMenu}/>
+              : <LuAlignJustify className="size-7 text-light cursor-pointer" onClick={handlerToggleMenu}/>
             }
           </div>
 

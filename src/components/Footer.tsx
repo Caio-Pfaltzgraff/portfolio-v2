@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa6";
+import { LuGithub, LuLinkedin, LuMail } from "react-icons/lu";
 import { Container } from "./Container";
 import { LinkIcon } from "./LinkIcon";
 
@@ -15,28 +16,28 @@ export function Footer() {
               href="https://www.linkedin.com/in/caio-pfaltzgraff/"
               className="flex items-center gap-6 border p-2.5 rounded-xl text-light hover:text-orange-600 dark:hover:text-orange-600 hover:border-orange-600"
             >
-              <Linkedin className="size-7"/>
+              <LuLinkedin className="size-7"/>
               <span>Linkedin</span>
             </LinkIcon>
             <LinkIcon 
               href="https://github.com/Caio-Pfaltzgraff"
               className="flex items-center gap-6 border p-2.5 rounded-xl text-light hover:text-orange-600 dark:hover:text-orange-600 hover:border-orange-600"
             >
-              <Github className="size-7"/>
+              <LuGithub className="size-7"/>
               <span>Github</span>
             </LinkIcon>
             <LinkIcon 
               href="mailto:caio.rllcr@gmail.com"
               className="flex items-center gap-6 border p-2.5 rounded-xl text-light hover:text-orange-600 dark:hover:text-orange-600 hover:border-orange-600"
             >
-              <Mail className="size-7"/>
+              <LuMail className="size-7"/>
               <span>Email</span>
             </LinkIcon>
             <LinkIcon 
               href="https://wa.me/5521980891793"
               className="flex items-center gap-6 border p-2.5 rounded-xl text-light hover:text-orange-600 dark:hover:text-orange-600 hover:border-orange-600"
             >
-              <Phone className="size-7"/>
+              <FaWhatsapp className="size-7"/>
               <span>Whatsapp</span>
             </LinkIcon>
           </div>

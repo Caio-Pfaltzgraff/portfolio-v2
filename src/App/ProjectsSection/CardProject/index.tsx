@@ -1,5 +1,6 @@
 import { Image, Tooltip } from "@nextui-org/react"
-import { Code, Github, Globe } from "lucide-react"
+import { LuGithub, LuGlobe } from "react-icons/lu"
+import { TbApi } from "react-icons/tb"
 
 type Props = {
   image: string
@@ -26,7 +27,7 @@ export function CardProject({image, title, description, techs, github, deploy}: 
           <Image src={image} alt="Projeto" className="object-cover object-left aspect-auto size-full rounded-md" />
         ) : (
           <div className="bg-midnightBlue flex justify-center items-center h-full w-full rounded-md">
-            <Code className="text-light size-16"/>
+            <TbApi className="text-light size-16"/>
           </div>
         )}
       </div>
@@ -61,14 +62,14 @@ export function CardProject({image, title, description, techs, github, deploy}: 
             target="_blank"
             className="flex justify-center items-center gap-1.5 border-2 border-orange-700 dark:border-orange-600 rounded-full px-5 py-2 text-sm text-orange-700 dark:text-orange-600 tracking-wider hover:bg-orange-700 hover:dark:bg-orange-600 hover:text-white dark:hover:text-white duration-400"
           >
-            Github <Github className="size-5"/>
+            Github <LuGithub className="size-5"/>
           </a>
           {deploy && <a 
             href={deploy}
             target="_blank"
             className="flex justify-center items-center gap-1.5 border-2 border-orange-700 dark:border-orange-600 rounded-full px-5 py-2 text-sm text-orange-700 dark:text-orange-600 tracking-wider hover:bg-orange-700 hover:dark:bg-orange-600 hover:text-white dark:hover:text-white duration-400"
           >
-            Site <Globe className="size-5"/>
+            Site <LuGlobe className="size-5"/>
           </a>}
         </div>
     </div>

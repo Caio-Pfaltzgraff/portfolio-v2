@@ -1,5 +1,5 @@
-import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
+import { LuMoon, LuSun } from "react-icons/lu";
 
 export function ToggleTheme({ className = '' }) {
   const systemPreference = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -22,11 +22,11 @@ export function ToggleTheme({ className = '' }) {
 
   return (
     <div className={className}>
-      <Moon 
+      <LuMoon 
         className="size-6 text-light block dark:hidden cursor-pointer"
         onClick={toggle}
       />
-      <Sun 
+      <LuSun 
         className="size-6 text-light hidden dark:block cursor-pointer"
         onClick={toggle}
       />

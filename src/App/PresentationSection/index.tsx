@@ -1,5 +1,6 @@
 import { Button } from "@nextui-org/react";
-import { FileDown, Github, Linkedin, Mail, Phone } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa6";
+import { LuFileDown, LuGithub, LuLinkedin, LuMail } from "react-icons/lu";
 import { LinkIcon } from "../../components/LinkIcon";
 import { Section } from "../../components/Section";
 
@@ -24,7 +25,7 @@ export function PresentationSection() {
   return (
     <Section id="start">
       <div className="h-screen flex flex-col items-center justify-center gap-8">
-        <p className="font-extrabold text-[12vw] sm:text-[2.5rem] md:text-[5.5rem] xl: text-8xl leading-tight text-center text-slate-800 dark:text-light">
+        <p className="font-extrabold text-[12vw] sm:text-[2.5rem] md:text-[5.5rem] xl:text-8xl leading-tight text-center text-slate-800 dark:text-light">
           {'Seu próximo desenvolvedor '}
           <span className="bg-gradient-to-r from-blue-700 dark:from-blue-600 via-pink-700 dark:via-pink-600 to-orange-700 dark:to-orange-600 inline-block text-transparent bg-clip-text">
             Fullstack
@@ -40,16 +41,16 @@ export function PresentationSection() {
 
         <div className="flex justify-center gap-4 dark:text-light">
           <LinkIcon href="https://www.linkedin.com/in/caio-pfaltzgraff/">
-            <Linkedin className="size-7 hover:text-orange-700 dark:hover:text-orange-600" />
+            <LuLinkedin className="size-8 hover:text-orange-700 dark:hover:text-orange-600" />
           </LinkIcon>
           <LinkIcon href="https://github.com/Caio-Pfaltzgraff">
-            <Github className="size-7 hover:text-orange-700 dark:hover:text-orange-600" />
+            <LuGithub className="size-8 hover:text-orange-700 dark:hover:text-orange-600" />
           </LinkIcon>
           <LinkIcon href="mailto:caio.rllcr@gmail.com">
-            <Mail className="size-7 hover:text-orange-700 dark:hover:text-orange-600" />
+            <LuMail className="size-8 hover:text-orange-700 dark:hover:text-orange-600" />
           </LinkIcon>
           <LinkIcon href="https://wa.me/5521980891793">
-            <Phone className="size-7 hover:text-orange-700 dark:hover:text-orange-600" />
+            <FaWhatsapp className="size-8 hover:text-orange-700 dark:hover:text-orange-600" />
           </LinkIcon>
         </div>
 
@@ -63,7 +64,7 @@ export function PresentationSection() {
               radius="md"
               className="bg-orange-700 dark:bg-orange-600 font-semibold text-light tracking-wide text-lg"
               endContent={
-                <FileDown className="size-5 animate-bounce"/>
+                <LuFileDown className="size-5 animate-bounce"/>
               }            
             >
               Ver currículo
