@@ -14,7 +14,7 @@ export function AchievementCard({ type, title, plataform, link = '', duration, c
   return (
     <div
       className={twMerge(
-        'space-y-3 p-6 border dark:border-zinc-500 rounded-3xl shadow-lg hover:scale-105 duration-500 bg-white dark:bg-dark-strong',
+        'space-y-3 p-6 border dark:border-zinc-500 rounded-3xl shadow-lg md:hover:scale-105 duration-500',
         className
       )}
     >

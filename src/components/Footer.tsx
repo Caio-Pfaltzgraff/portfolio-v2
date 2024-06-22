@@ -1,3 +1,4 @@
+import { Tooltip } from "@nextui-org/react";
 import { FaWhatsapp } from "react-icons/fa6";
 import { LuGithub, LuLinkedin, LuMail } from "react-icons/lu";
 import { Container } from "./Container";
@@ -56,17 +57,45 @@ export function Footer() {
             </p>
 
             <div className="flex justify-center  gap-1.5">
-              <img 
-                src="/skillsIcons/react-icon.png" 
-                alt="React"
-                className="size-7 -mt-1" 
-              />
+              <Tooltip
+                content="React"
+                showArrow
+                classNames={{
+                  base: [
+                    "before:bg-dark-light dark:before:bg-zinc-700"
+                  ],
+                  content: [
+                    "px-4 py-2 shadow-xl",
+                    "text-white bg-dark-light dark:bg-zinc-700"
+                  ]
+                }}
+              >
+                <img 
+                  src="/skillsIcons/react-icon.png" 
+                  alt="React"
+                  className="size-7 -mt-1" 
+                />
+              </Tooltip>
               <span className="text-sm text-light">com</span>
-              <img 
-                src="/skillsIcons/typescript-icon.png" 
-                alt="Typescript"
-                className="size-7 -mt-1 rounded-lg" 
-              />
+              <Tooltip
+                content="Typescript"
+                showArrow
+                classNames={{
+                  base: [
+                    "before:bg-dark-light dark:before:bg-zinc-700"
+                  ],
+                  content: [
+                    "px-4 py-2 shadow-xl",
+                    "text-white bg-dark-light dark:bg-zinc-700"
+                  ]
+                }}
+              >
+                <img 
+                  src="/skillsIcons/typescript-icon.png" 
+                  alt="Typescript"
+                  className="size-7 -mt-1 rounded-lg" 
+                />
+              </Tooltip>
             </div>
           </div>
         </div>

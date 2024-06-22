@@ -31,7 +31,7 @@ export function PresentationSection() {
             Fullstack
           </span>
         </p>
-        <p className="text-center max-w-2xl leading-relaxed">
+        <p className="text-base text-center max-w-2xl leading-relaxed">
           Olá, me chamo Caio Pfaltzgraff, {myAgeCalculator()} anos, desenvolvedor fullstack,{' '}
           <span className="font-bold dark:text-orange-600">Java</span> ,{" "}
           <span className="font-bold dark:text-orange-600">React</span>,{" "}

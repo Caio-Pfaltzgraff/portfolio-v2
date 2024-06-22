@@ -12,7 +12,7 @@ export function NavBar() {
 
   return (
       <nav className="bg-midnightBlue dark:bg-dark-light fixed top-0 w-full z-50">
-        <div className="max-w-screen-xl mx-auto flex items-center p-4 2xl:px-0 justify-between">
+        <div className="max-w-screen-xl mx-auto flex items-center p-4 2xl:py-5 2xl:px-0 justify-between">
           <h2 className="text-2xl font-title text-light font-semibold">
             {"Port"}<span className="text-orange-700">fólio</span>
           </h2>
@@ -32,11 +32,11 @@ export function NavBar() {
             <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='aboutme' offset={-90}>
               Sobre mim
             </LinkNav>
-            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='skills' offset={-90}>
-              Habilidades
-            </LinkNav>
             <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='projects' offset={-90}>
               Projetos
+            </LinkNav>
+            <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='skills' offset={-90}>
+              Habilidades
             </LinkNav>
             <LinkNav className="nav-link" activeClass='nav-link-active' smooth spy to='achievements' offset={-90}>
               Conquistas
@@ -73,21 +73,21 @@ export function NavBar() {
               className="nav-link-mobile" 
               activeClass='nav-link-mobile-active' 
               smooth spy 
-              to='skills'
-              onClick={handlerToggleMenu}
-              offset={-64}
-            >
-              Habilidades
-            </LinkNav>
-            <LinkNav 
-              className="nav-link-mobile" 
-              activeClass='nav-link-mobile-active' 
-              smooth spy 
               to='projects'
               onClick={handlerToggleMenu}
               offset={-64}
             >
               Projetos
+            </LinkNav>
+            <LinkNav 
+              className="nav-link-mobile" 
+              activeClass='nav-link-mobile-active' 
+              smooth spy 
+              to='skills'
+              onClick={handlerToggleMenu}
+              offset={-64}
+            >
+              Habilidades
             </LinkNav>
             <LinkNav 
               className="nav-link-mobile" 

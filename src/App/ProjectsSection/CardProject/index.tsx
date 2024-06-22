@@ -1,4 +1,4 @@
-import { Image, Tooltip } from "@nextui-org/react"
+import { Tooltip } from "@nextui-org/react"
 import { LuGithub, LuGlobe } from "react-icons/lu"
 import { TbApi } from "react-icons/tb"
 
@@ -16,7 +16,7 @@ type Props = {
 
 export function CardProject({image, title, description, techs, github, deploy}: Props) {
   return (
-    <div className="grid gap-y-4 border px-[2.5vw] py-[4vw] md:px-3 md:py-4 lg:px-3.5 rounded-xl max-w-md shadow-lg">
+    <div className="grid gap-y-4 border px-[2.5vw] py-[4vw] md:px-3 md:py-4 lg:px-3.5 rounded-2xl max-w-md shadow-lg">
         <div className="flex gap-2 ml-0.5">
           <div className="rounded-full size-3 bg-red-500" />
           <div className="rounded-full size-3 bg-yellow-500" />
@@ -24,7 +24,7 @@ export function CardProject({image, title, description, techs, github, deploy}: 
         </div>
         <div className="h-48 xl:h-52">
         {image ? (
-          <Image src={image} alt="Projeto" className="object-cover object-left aspect-auto size-full rounded-md" />
+          <img src={image} alt="Projeto" className="object-cover object-left aspect-auto size-full rounded-md" />
         ) : (
           <div className="bg-midnightBlue flex justify-center items-center h-full w-full rounded-md">
             <TbApi className="text-light size-16"/>
@@ -43,11 +43,11 @@ export function CardProject({image, title, description, techs, github, deploy}: 
               key={tech.name}
               classNames={{
                 base: [
-                  "before:bg-dark-100 dark:before:bg-zinc-700"
+                  "before:bg-dark-light dark:before:bg-zinc-700"
                 ],
                 content: [
                   "px-4 py-2 shadow-xl",
-                  "text-white bg-dark-100 dark:bg-zinc-700"
+                  "text-white bg-dark-light dark:bg-zinc-700"
                 ]
               }}
             >
