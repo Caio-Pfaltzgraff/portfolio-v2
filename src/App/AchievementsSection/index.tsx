@@ -6,13 +6,13 @@ export function AchievementsSection() {
   return (
     <Section id="achievements"  className="py-10 md:py-12 lg:py-14">
       <Title text="Conquistas"/>
-      <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+      <div className="mt-10 grid gap-x-5 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
         <AchievementCard 
           type="Graduação"
           title="Análise e Desenvolvimento de Sistemas"
           plataform="Universidade Estácio de Sá"
           duration="2021 - 2024"
-          className="md:col-span-2 border border-orange-700 dark:border-orange-700"
+          className="md:col-span-2 border border-orange-700 dark:border-orange-700 dark:shadow-orange-800"
         />
 
         <AchievementCard 

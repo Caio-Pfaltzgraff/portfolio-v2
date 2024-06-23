@@ -5,7 +5,7 @@ import { CardProject } from "./CardProject";
 
 export function ProjectsSection() {
   return (
-    <Section id="projects">
+    <Section id="projects" className="py-10 md:py-12 lg:py-14">
       <Title text="Projetos" />
       <div className="mt-10 grid gap-10 justify-center md:grid-cols-2 lg:grid-cols-3">
         {projects.map(p => (

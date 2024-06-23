@@ -15,31 +15,28 @@ export function ContactSection() {
           </h3>
 
           <p className="dark:text-light leading-relaxed">
-            Se você estiver em busca de alguém dedicado, com fome por
-            aprendizado e que deseja crescer junto à sua empresa, ficaria
-            honrado em ter essa oportunidade. Estou disponível também para novos
-            projetos e colaborações. Sinta-se à vontade para entrar em contato e
-            juntos transformarmos ideias em realidade. Entre em contato e
-            marcamos uma conversa para discutir como podemos trabalhar juntos.
+            Estou sempre aberto a novas oportunidades e parcerias. Se você tiver
+            alguma dúvida, proposta ou simplesmente quiser conversar sobre
+            tecnologia, sinta-se à vontade para entrar em contato comigo!
           </p>
 
           <div className="space-y-3">
             <div className="flex gap-4 items-center">
-              <LuUser2 className="text-orange-700 dark:text-orange-600 size-7"/>
+              <LuUser2 className="text-orange-700 dark:text-orange-600 size-7" />
               <div>
                 <p className="font-bold dark:text-light">Nome</p>
                 <p className="dark:text-zinc-400">Caio Pfaltzgraff</p>
               </div>
             </div>
             <div className="flex gap-4 items-center">
-              <LuMail className="text-orange-700 dark:text-orange-600 size-7"/>
+              <LuMail className="text-orange-700 dark:text-orange-600 size-7" />
               <div>
                 <p className="font-bold dark:text-light">E-mail</p>
                 <p className="dark:text-zinc-400">caio.rllcr@gmail.com</p>
               </div>
             </div>
             <div className="flex gap-4 items-center">
-              <FiPhone className="text-orange-700 dark:text-orange-600 size-7"/>
+              <FiPhone className="text-orange-700 dark:text-orange-600 size-7" />
               <div>
                 <p className="font-bold dark:text-light">Telefone</p>
                 <p className="dark:text-zinc-400">(21) 98089-1793</p>

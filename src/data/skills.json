@@ -40,6 +40,11 @@
     "level": "Intermediário"
   },
   {
+    "icon": "/skillsIcons/express-icon.png",
+    "name": "Express.JS",
+    "level": "Intermediário"
+  },
+  {
     "icon": "/skillsIcons/docker-icon.png",
     "name": "Docker",
     "level": "Básico"
