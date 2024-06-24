@@ -25,12 +25,12 @@ export function PresentationSection() {
   return (
     <Section id="start">
       <div className="h-screen flex flex-col items-center justify-center gap-8">
-        <p className="font-extrabold text-[12vw] sm:text-[2.5rem] md:text-[5.5rem] xl:text-8xl leading-tight text-center text-slate-800 dark:text-light">
+        <h2 className="font-extrabold text-[12vw] sm:text-[2.5rem] md:text-[5.5rem] xl:text-8xl leading-tight text-center text-slate-800 dark:text-light">
           {'Seu próximo desenvolvedor '}
           <span className="bg-gradient-to-r from-blue-700 dark:from-blue-600 via-pink-700 dark:via-pink-600 to-orange-700 dark:to-orange-600 inline-block text-transparent bg-clip-text">
             Fullstack
           </span>
-        </p>
+        </h2>
         <p className="text-base text-center max-w-2xl leading-relaxed">
           Olá, me chamo Caio Pfaltzgraff, {myAgeCalculator()} anos, desenvolvedor fullstack,{' '}
           <span className="font-bold dark:text-orange-600">Java</span> ,{" "}

@@ -13,9 +13,13 @@ export function NavBar() {
   return (
       <nav className="bg-midnightBlue dark:bg-dark-light fixed top-0 w-full z-50">
         <div className="max-w-screen-xl mx-auto flex items-center p-4 2xl:py-5 2xl:px-0 justify-between">
-          <h2 className="text-2xl font-title text-light font-semibold">
+          {/* <h2 className="text-2xl font-title text-light font-semibold">
             {"Port"}<span className="text-orange-700">fólio</span>
-          </h2>
+          </h2> */}
+
+          <h1 className="text-2xl font-title text-light font-semibold tracking-wide">
+            Caio <span className="text-orange-700">Pfaltzgraff</span>
+          </h1>
 
           <div className="flex gap-x-6 items-center md:hidden">
             <ToggleTheme />

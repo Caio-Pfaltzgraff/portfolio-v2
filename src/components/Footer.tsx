@@ -53,7 +53,12 @@ export function Footer() {
 
           <div className="flex flex-col sm:flex-row sm:justify-center gap-x-1.5 gap-y-4">
             <p className="text-light text-center text-sm">
-              Desenvolvido por Caio Pfaltzgraff utilizando
+              Desenvolvido por {" "}
+              <a 
+              href="https://github.com/Caio-Pfaltzgraff"
+              target="_blank"
+              className="underline md:no-underline md:hover:underline"
+              >Caio Pfaltzgraff</a> utilizando
             </p>
 
             <div className="flex justify-center  gap-1.5">
