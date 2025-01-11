@@ -14,7 +14,7 @@ export function PresentationSection() {
 
     if (
       currentMonth < birthdayMonth ||
-      (currentMonth === birthdayMonth && today.getDay() >= birthday.getDay())
+      (currentMonth === birthdayMonth && today.getDay() < birthday.getDay())
     ) {
       age--;
     }
@@ -32,11 +32,12 @@ export function PresentationSection() {
           </span>
         </h2>
         <p className="text-base text-center max-w-2xl leading-relaxed">
-          Olá, me chamo Caio Pfaltzgraff, {myAgeCalculator()} anos, desenvolvedor fullstack,{' '}
+          <span>Olá, me chamo Caio Pfaltzgraff, {myAgeCalculator()} anos, sou desenvolvedor full-stack</span>,{" "}
           <span className="font-bold dark:text-orange-600">Java</span> ,{" "}
+          <span className="font-bold dark:text-orange-600">C#</span> ,{" "}
           <span className="font-bold dark:text-orange-600">React</span>,{" "}
-          <span className="font-bold dark:text-orange-600">Node.JS</span> e{" "}
-          <span className="font-bold dark:text-orange-600">TS</span>.
+          <span className="font-bold dark:text-orange-600">Next.JS</span> e{" "}
+          <span className="font-bold dark:text-orange-600">Typescript</span>.
         </p>
 
         <div className="flex justify-center gap-4 dark:text-light">
@@ -58,6 +59,7 @@ export function PresentationSection() {
           <a
             href="https://drive.google.com/file/d/1bWyYBRH8pBoa2A726nDRuz2MuPOWmrvP/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <Button
               size="lg"

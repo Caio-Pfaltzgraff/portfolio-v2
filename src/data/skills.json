@@ -1,7 +1,7 @@
 [
   {
-    "icon": "/skillsIcons/java-icon.png",
-    "name": "Java",
+    "icon": "/skillsIcons/csharp-icon.png",
+    "name": "C#",
     "level": "Avançado"
   },
   {
@@ -15,6 +15,16 @@
     "level": "Avançado"
   },
   {
+    "icon": "/skillsIcons/java-icon.png",
+    "name": "Java",
+    "level": "Avançado"
+  },
+  {
+    "icon": "https://cdn6.aptoide.com/imgs/3/3/4/334ec5c9cfb8bed9de5520023096401e_icon.png",
+    "name": ".NET",
+    "level": "Intermediário"
+  },
+  {
     "icon": "/skillsIcons/spring-icon.png",
     "name": "Spring Boot",
     "level": "Avançado"
@@ -22,7 +32,7 @@
   {
     "icon": "/skillsIcons/react-icon.png",
     "name": "React",
-    "level": "Intermediário"
+    "level": "Avançado"
   },
   {
     "icon": "/skillsIcons/node-icon.png",
@@ -30,14 +40,9 @@
     "level": "Intermediário"
   },
   {
-    "icon": "/skillsIcons/vite-icon.png",
-    "name": "Vite",
-    "level": "Intermediário"
-  },
-  {
     "icon": "/skillsIcons/nextjs-icon.png",
     "name": "Next.JS",
-    "level": "Intermediário"
+    "level": "Avançado"
   },
   {
     "icon": "/skillsIcons/express-icon.png",
@@ -52,7 +57,12 @@
   {
     "icon": "/skillsIcons/git-icon.png",
     "name": "Git",
-    "level": "Intermediário"
+    "level": "Avançado"
+  },
+  {
+    "icon": "/skillsIcons/sql-server-icon.png",
+    "name": "Sql Server",
+    "level": "Avançado"
   },
   {
     "icon": "/skillsIcons/postgres-icon.png",
@@ -80,24 +90,9 @@
     "level": "Intermediário"
   },
   {
-    "icon": "/skillsIcons/bootstrap-icon.png",
-    "name": "Bootstrap",
-    "level": "Avançado"
-  },
-  {
     "icon": "/skillsIcons/sass-icon.png",
     "name": "Sass",
     "level": "Intermediário"
-  },
-  {
-    "icon": "/skillsIcons/material-ui-icon.png",
-    "name": "Material UI",
-    "level": "Intermediário"
-  },
-  {
-    "icon": "/skillsIcons/power-automate-icon.png",
-    "name": "Power Automate",
-    "level": "Básico"
   },
   {
     "icon": "/skillsIcons/office-icon.png",
